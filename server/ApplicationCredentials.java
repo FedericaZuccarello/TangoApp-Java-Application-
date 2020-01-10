@@ -2,22 +2,22 @@ package server;
 
 public class ApplicationCredentials {
     //AES
-    private static final String secretKey = "0yA731AAd7AAAAAAAAAACeZOUcgQdW3KCtacQzq2hJXPlcvPwsP6q9vLXwxOzf4z";
+    private static final String secretKey = "*****************************";
     //DROPBOX
-    private static final String tokenDropbox = "Bearer 0yA731AAd7AAAAAAAAAACeZOUcgQdW3KCtacQzq2hJXPlcvPwsP6q9vLXwxOzf4z";
+    private static final String tokenDropbox = "Bearer **********************************************";
     //HERE
-    private static final String APP_ID = "dYOpUJN2TFsWXoh8vuZZ";
-    private static final String APP_CODE = "hBUhVZsg6gHhH-f9NEoeYA";
+    private static final String APP_ID = "********************";
+    private static final String APP_CODE = "**********************";
     //OPEN WETHER MAPS
-    private static final String KEY = "006d58c4560b501d6e8e48d772fef25b";
+    private static final String KEY = "*********************";
     //TRELLO
-    private static final String KEYtrello = "fc3f6082c1c014ee9056776d51c0f434";
-    private static final String TOKENtrello = "1625be7c8417e9092db98a147df41d26f7359231629dad47adfac140764c396e";
+    private static final String KEYtrello = "****************";
+    private static final String TOKENtrello = "*****************************************";
     //LINKEDIN
-    private static final String client_id = "86l7lj453im09i";
+    private static final String client_id = "*********************";
     private static final String redirect_url = "http://localhost:4000/mioServer/login/linkedin/success";
-    private static final String  client_secret = "smNeUCtoLHDu7tSF";
-    private static final String  state = "fdfdfdfd";
+    private static final String  client_secret = "*************";
+    private static final String  state = "**********";
     
     public String getsecretkey(){
         return secretKey;
